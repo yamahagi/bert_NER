@@ -9,7 +9,7 @@ BERTのrepresentationにNERのembeddingsを加えるためのコード
 
 
 run_classifier_sci.py内
-InputExample(): NERデータを保持するように変更
+InputExample(): NERデータを保持するように変更 \n
 InputFeatures(): NERデータを保持するように変更
 class SciProcessor(DataProcessor): 元データからNERデータも読み出してInputExampleのリストを作るように変更
 convert_single_example(): (ここでInputExampleをInputFeaturesに変換)NERデータを含めた変更
