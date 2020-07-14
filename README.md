@@ -4,6 +4,7 @@
 label(true or false)+"\t"+PDF Id + "\t" + text_a(premise) + "\t" + text_b(hypothesis) + "\t" + NER ids for each subtoken(0,1,3,5のどれかの数字の列）
 
 BERTのrepresentationにNERのembeddingsを加えるためのコード
+
 基本的にはscience-result-extractor+BERTのコードと同じ(https://github.com/IBM/science-result-extractor) なのですが、一部違うところがあるのでそこだけ書いておきます。
 
 
